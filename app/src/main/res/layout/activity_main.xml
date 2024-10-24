@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/productNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Name"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/temperatureInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Temperature"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/humidityInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Humidity"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/expiry_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry date(YYYY-MM-DD)"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/manualSubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Manual Input"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/productInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Information will appear here"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="OR"/>
+
+        <ImageView
+            android:id="@+id/qrCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/scan"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="Scan QR Code"/>
+
+
+
+        <TextView
+            android:id="@+id/aiRecommendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:text="AI Recommendation will appear here" />
+
+
+    </LinearLayout>
+</layout>

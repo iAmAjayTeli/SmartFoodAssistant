@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434068848899",
+    "project_id": "smartfoodassistant-7c532",
+    "storage_bucket": "smartfoodassistant-7c532.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434068848899:android:c11d01b489eba25ce76936",
+        "android_client_info": {
+          "package_name": "com.example.smartfoodassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR2typTy15cI9bx8bHz-TSST49prgXXwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
